@@ -1,48 +1,56 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
-    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.8)),url("bg\ img.jpg");
+
+body {
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url("bg\ img.jpg");
+    background-color: #111;
     color: #fff;
     width: 100%;
-    height: 100vh;  
+    height: 100vh;
     background-size: cover;
     background-position: center;
     padding: 10px 8px;
     position: relative;
+    background-repeat: no-repeat;
 }
-.navbar{
+
+.navbar {
     padding-left: 10vw;
     padding-right: 10vw;
     padding: 229;
     align-items: center;
 
 }
-.btn{
+
+.btn {
     background-color: red;
     color: white;
     border-radius: 0.25rem;
     padding: 4px 17px;
     display: inline-block;
 }
-.container h1{
+
+.container h1 {
     font-size: 2rem;
     font-weight: 700;
     align-items: center;
     padding-left: 300px;
     padding-top: 200px;
-    
+
 }
-h1{
+
+h1 {
     display: block;
     margin-block-start: 0.67em;
     margin-block-end: 0.67em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
-header select{
+
+header select {
     background-color: transparent;
     color: #fff;
     padding: 2px 13px;
@@ -53,9 +61,74 @@ header select{
     padding-top: 0.370rem;
     margin-right: 30px;
 }
-header svg{
+
+header svg {
     height: 20px;
     position: absolute;
     margin-top: 8px;
-    margin-left: 9px;  
+    margin-left: 9px;
+}
+
+.cont {
+    background-color: black;
+}
+
+.featured {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: right;
+    background-color: black;
+    margin-top: 315px;
+    margin-left: 0px;
+
+}
+
+.movie1 {
+    margin: 10px;
+    padding: 10px;
+}
+
+.movie1 img {
+    width: 50%;
+    height: 70%;
+    border-radius: 5px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.text {
+    font-size: 20px;
+    padding-left: 20px;
+    align-items: right;
+    justify-content: right;
+}
+
+.featured2 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    align-items: flex-end;
+    margin: 10px 0px 0px;
+}
+
+.movie2 img {
+    width: 60%;
+    height: 70%;
+}
+
+.featured3 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    margin: 10px 0px 0px;
+}
+
+.footer {
+    background-color: #111;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer p {
+    font-size: 14px;
 }
